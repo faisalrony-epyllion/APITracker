@@ -150,7 +150,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Epyllion Group Expense Management System API v1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Epyllion Group API Management System API v1");
     });
 }
 #endregion
